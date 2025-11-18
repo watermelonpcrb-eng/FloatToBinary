@@ -12,11 +12,11 @@
 #include "httplib.h"
 
 // ---- CONFIG: fill these in ----
-static const char* GOOGLE_CLIENT_ID     = "YOUR_CLIENT_ID.apps.googleusercontent.com";
-static const char* GOOGLE_CLIENT_SECRET = "YOUR_CLIENT_SECRET";
+static const char* GOOGLE_CLIENT_ID     = "978146626182-1vbng1i8lmsvfcf4v6mmkssi107v0pkr.apps.googleusercontent.com";
+static const char* GOOGLE_CLIENT_SECRET = "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";
 static const char* REDIRECT_URI         = "http://localhost:8080/auth/google/callback";
 // scopes: OpenID Connect basic profile/email
-static const char* SCOPE = "openid email profile";
+static const char* SCOPE = "email profile";
 // --------------------------------
 
 static std::unordered_set<std::string> pending_states;
